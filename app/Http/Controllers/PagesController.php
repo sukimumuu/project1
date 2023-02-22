@@ -16,4 +16,9 @@ class PagesController extends Controller
             'title' => 'Peduliaalam - Masuk'
         ]);
     }
+    public function landing(){
+        return view('landing_page.index',[
+            'title' => 'Peduliaalam'
+        ]);
+    }
 }

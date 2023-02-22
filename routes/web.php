@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PagesController;
 use Illuminate\Support\Facades\Route;
 
@@ -15,4 +16,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[PagesController::class,'index'])->name('index');
+
 Route::get('/login',[PagesController::class,'login'])->name('login');
+Route::post('/login-send',[LoginController::class,'export'])->name('send.login');
+
+Route::get('/peduliaalam',[PagesController::class,'landing'])->name('landing');
