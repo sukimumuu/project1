@@ -10,7 +10,7 @@
   </head>
   <body style="background-color:#13795B">
     <div class="col-xl-5 position-absolute top-50 start-50 translate-middle text-center text-white">
-        <a href="{{ route('login') }}" class="nav-link"><h3 class="spacegrotesk-2">Peduliaalam  <i class="fa-solid fa-leaf"></i></h3></a>
+        <a href="{{ route('login') }}" class="nav-link"><h3 class="spacegrotesk-2">PeLam  <i class="fa-solid fa-leaf"></i></h3></a>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>

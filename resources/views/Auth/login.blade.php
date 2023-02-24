@@ -14,7 +14,7 @@
                 <div class="col-xl-7" style="background: url('{{ asset('img/login.jpg') }}'); background-size:cover;">
                 </div>
                 <div class="col-xl-5 bg-light">
-                    <h4 class="text-center p-3 mb-4">Peduliaalam  <i class="fa-solid fa-leaf"></i></h4>
+                    <h4 class="text-center p-3 mb-4">PeLam  <i class="fa-solid fa-leaf"></i></h4>
                     <form action="{{ route('send.login') }}" method="post">
                         @csrf
                         <div class="mb-3 col-xl-10 mx-auto">
